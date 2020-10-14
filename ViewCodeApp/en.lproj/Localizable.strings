@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  ViewCodeApp
+
+  Created by Usuário Convidado on 13/10/20.
+  Copyright © 2020 FIAP. All rights reserved.
+*/
+
+"WELCOME" = "Welcome!";
+"MAIN" = "Let`s workout? Here you can create the perfect training!";
+"LOGIN_BUTTON" = "Login";
+"SIGNUP_BUTTON" = "Sign Up";
+"PHONE" = "Phone";

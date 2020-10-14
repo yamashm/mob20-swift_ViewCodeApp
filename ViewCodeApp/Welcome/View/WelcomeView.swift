@@ -43,7 +43,7 @@ class WelcomeView: UIView, CodeView {
     
     let titleLabel: UILabel = {
         let label = UILabel(frame: .zero)
-        label.text = "Welcome!"
+        label.text =  Localization.welcome //"Welcome!"
         label.textAlignment = .center
         label.font = .tittle
         label.textColor = .title
@@ -54,7 +54,7 @@ class WelcomeView: UIView, CodeView {
     
     let bodyLabel: UILabel = {
            let label = UILabel(frame: .zero)
-           label.text = "Let`s workout? Here you can create the perfect training!"
+        label.text = Localization.main // "Let`s workout? Here you can create the perfect training!"
            label.textAlignment = .center
            label.font = .body
            label.textColor = .body
@@ -65,7 +65,7 @@ class WelcomeView: UIView, CodeView {
     
     let phoneTextField: UITextField = {
         let textField = UITextField(frame: .zero)
-        textField.placeholder = "Phone"
+        textField.placeholder = Localization.phone //"Phone"
         textField.keyboardType = .phonePad
         textField.borderStyle = .roundedRect
         textField.textAlignment = .center
@@ -83,8 +83,8 @@ class WelcomeView: UIView, CodeView {
         return stackView
     }()
     
-    let loginButton = WelcomeButton(style: .main, title: "Login")
-    let signUpButton = WelcomeButton(style: .secondary, title: "Sign Up")
+    let loginButton = WelcomeButton(style: .main, title: Localization.login)
+    let signUpButton = WelcomeButton(style: .secondary, title: Localization.sign)
     
     init(delegate: WelcomeViewDelegate){
         super.init(frame: .zero)
