@@ -17,6 +17,8 @@
 		AC2F3181253664F300A9CC94 /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2F3180253664F300A9CC94 /* CodeView.swift */; };
 		AC2F318425366EE700A9CC94 /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2F318325366EE700A9CC94 /* AppStyle.swift */; };
 		AC2F318725366FD900A9CC94 /* UIColor+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2F318625366FD900A9CC94 /* UIColor+RGB.swift */; };
+		AC2F318A25367D7C00A9CC94 /* WelcomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2F318925367D7B00A9CC94 /* WelcomeButton.swift */; };
+		AC2F318C2536888B00A9CC94 /* HasCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2F318B2536888B00A9CC94 /* HasCodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		AC2F3180253664F300A9CC94 /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
 		AC2F318325366EE700A9CC94 /* AppStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStyle.swift; sourceTree = "<group>"; };
 		AC2F318625366FD900A9CC94 /* UIColor+RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+RGB.swift"; sourceTree = "<group>"; };
+		AC2F318925367D7B00A9CC94 /* WelcomeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeButton.swift; sourceTree = "<group>"; };
+		AC2F318B2536888B00A9CC94 /* HasCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasCodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				AC2F31472536606E00A9CC94 /* AppDelegate.swift */,
 				AC2F31782536618F00A9CC94 /* Welcome */,
 				AC2F31502536607A00A9CC94 /* Assets.xcassets */,
+				AC2F318825367D5400A9CC94 /* Components */,
 				AC2F317F253664D200A9CC94 /* Shared */,
 				AC2F31522536607A00A9CC94 /* LaunchScreen.storyboard */,
 				AC2F31552536607A00A9CC94 /* Info.plist */,
@@ -160,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				AC2F3180253664F300A9CC94 /* CodeView.swift */,
+				AC2F318B2536888B00A9CC94 /* HasCodeView.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -188,6 +194,14 @@
 				AC2F318625366FD900A9CC94 /* UIColor+RGB.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AC2F318825367D5400A9CC94 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AC2F318925367D7B00A9CC94 /* WelcomeButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,6 +340,8 @@
 				AC2F317B253661DF00A9CC94 /* WelcomeView.swift in Sources */,
 				AC2F31482536606E00A9CC94 /* AppDelegate.swift in Sources */,
 				AC2F3181253664F300A9CC94 /* CodeView.swift in Sources */,
+				AC2F318C2536888B00A9CC94 /* HasCodeView.swift in Sources */,
+				AC2F318A25367D7C00A9CC94 /* WelcomeButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
