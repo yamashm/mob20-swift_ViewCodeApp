@@ -19,16 +19,18 @@ class WelcomeView: UIView, CodeView {
     
     weak var delegate: WelcomeViewDelegate?
     
-    let scrollView: UIScrollView = {
+    @ViewCodeComponent //Para nao ter que repetir a linha translatesAutoresizingMaskIntoConstraints sempre
+    var scrollView: UIScrollView = {
         let scrollView = UIScrollView(frame: .zero)
-        scrollView.translatesAutoresizingMaskIntoConstraints = false
+        //scrollView.translatesAutoresizingMaskIntoConstraints = false
         scrollView.keyboardDismissMode = .interactive
         return scrollView
     }()
     
-    let contentView: UIView = {
+    @ViewCodeComponent
+    var contentView: UIView = {
         let contentView = UIView(frame: .zero)
-        contentView.translatesAutoresizingMaskIntoConstraints = false
+        //contentView.translatesAutoresizingMaskIntoConstraints = false
         return contentView
     }()
     
